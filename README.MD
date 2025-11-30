@@ -97,9 +97,9 @@ The `PriorityCalculator` class normalizes inputs to ensure fair scoring:
 - single task input
 ![Dashboard1 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard1.png)
 ![Dashboard2 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard2.png)
-![Dashboard3 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard3.png)
 
 - multiple tasks input
+![Dashboard3 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard3.png)
 ![Dashboard4 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard4.png)
 ![Dashboard5 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard5.png)
 ![Dashboard6 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard6.png)
