@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    background: rgb(91, 69, 100);
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.tasks_content{
+    display: flex;
+    justify-content:space-between;
+    gap:20px;
+    max-height: 315px;
+    padding: 50px;
+}
+.task_creater{
+    min-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #dfd9d9;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 10px;
+    overflow-y:auto;
+}
+.task_header{
+    text-align: end;
+    padding: 2px;
+}
+.task_header i{
+    cursor: pointer;
+    box-shadow: 0 0 10px #dfd9d9;
+}
+.task_header i:hover{
+    color: #604a7a;
+}
+.task_header i:active{
+    color: #9676e0;
+}
+.listof_tasks{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.task_row{
+    display: flex;
+    flex-direction: column;
+    background: #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    gap:10px
+}
+.task_creater input{
+    padding:12px;
+    padding-left:20px ;
+    border: 1px solid rgb(192, 183, 183);
+    border-radius:5px;
+    outline: none;
+}
+.task_creater input:focus{
+    border-color: #4c00ff;
+    box-shadow: 0 0 10px #001aff;
+} 
+.add_task{
+    padding: 8px;
+    border: 1px solid rgb(207, 201, 201);
+    border-radius: 8px;
+    background: rgb(72, 51, 92);
+    color:rgb(255, 255, 255);
+    cursor: pointer;
+    transition: background 0.3s ease;
+    box-shadow: 0 0 10px rgb(76, 76, 78);
+}
+.add_task:active{
+    box-shadow: 0 0 10px rgb(216, 211, 207);
+}
+.task_output{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #dfd9d9;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding: 5px;
+    overflow-y:auto;
+}
+.output_header{
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+    padding: 10px;
+}
+.dropdwon {
+    padding: 5px;
+    border: 2px solid #604a7a;
+    border-radius: 5px;
+    outline: none;
+    background-color: #e0dee6;
+    color: #333;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+.dropdwon option{
+    cursor: pointer;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.sorted_task{
+    background: #f1f1f1;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.task_details tbody tr th{
+    width:50%;
+    text-align: left;
+}
+.task_details tbody tr th{
+    font-size: 0.9rem;
+}
+.task_details tbody tr td{
+    width:50%;
+}
+.task_details tbody tr td{
+    font-size: 0.9rem;
+}
+.sorted_task:hover{
+    cursor: pointer;
+    transform: scale(1.02); /* Slight zoom effect */
+    box-shadow: 0 0 10px rgba(5, 4, 77, 0.411); /* Deeper shadow */
+}
+
+/*dynamic remove btn for task creater*/
+.remove{
+    text-align: end;
+    cursor: pointer;
+}
+.remove i:hover{
+    color: #604a7a;
+}
+.remove i:active{
+    color: #9676e0;
+}
+@media screen and (max-width: 700px){
+    .tasks_content{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        gap:20px;
+        max-height: none;
+        height: 315;
+        padding: 0px;
+    }
+    .task_creater{
+        max-height: 315px;
+        overflow-y: auto;
+    }
+    .task_output{
+        max-height: 315px;
+        overflow-y:auto;
+    }
+}
