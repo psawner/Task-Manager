@@ -92,20 +92,20 @@ The `PriorityCalculator` class normalizes inputs to ensure fair scoring:
 ## screeshots
 
 ### Dashboard Page
-![Dashboard Page](https://github.com/psawner/chatNova/blob/main/screenshots/dashboard.png)
+![Dashboard Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard.png)
 
 - single task input
-![Dashboard1 Page](https://github.com/psawner/chatNova/blob/main/screenshots/dashboard1.png)
-![Dashboard2 Page](https://github.com/psawner/chatNova/blob/main/screenshots/dashboard2.png)
-![Dashboard3 Page](https://github.com/psawner/chatNova/blob/main/screenshots/dashboard3.png)
+![Dashboard1 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard1.png)
+![Dashboard2 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard2.png)
+![Dashboard3 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard3.png)
 
 - multiple tasks input
-![Dashboard4 Page](https://github.com/psawner/chatNova/blob/main/screenshots/dashboard4.png)
-![Dashboard5 Page](https://github.com/psawner/chatNova/blob/main/screenshots/dashboard5.png)
-![Dashboard6 Page](https://github.com/psawner/chatNova/blob/main/screenshots/dashboard6.png)
-![Dashboard7 Page](https://github.com/psawner/chatNova/blob/main/screenshots/dashboard7.png)
-![Dashboard8 Page](https://github.com/psawner/chatNova/blob/main/screenshots/dashboard8.png)
+![Dashboard4 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard4.png)
+![Dashboard5 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard5.png)
+![Dashboard6 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard6.png)
+![Dashboard7 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard7.png)
+![Dashboard8 Page](https://github.com/psawner/Task-Manager/blob/main/screenshots/dashboard8.png)
 
 - small screen-size
-![Responsive](https://github.com/psawner/chatNova/blob/main/screenshots/responsive.png)
-![Responsive1](https://github.com/psawner/chatNova/blob/main/screenshots/responsive1.png)
+![Responsive](https://github.com/psawner/Task-Manager/blob/main/screenshots/responsive.png)
+![Responsive1](https://github.com/psawner/Task-Manager/blob/main/screenshots/responsive1.png)
